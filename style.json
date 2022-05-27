@@ -6,7 +6,7 @@
     "maputnik:renderer": "mbgljs",
     "openmaptiles:version": "3.x"
   },
-  "sources": {
+  "sources": { 
     "openmaptiles": {"type": "vector", "url": "https://raw.githubusercontent.com/quanvn1206/styles/main/tile.json"}
   },
   "sprite": "https://maputnik.github.io/osm-liberty/sprites/osm-liberty",
