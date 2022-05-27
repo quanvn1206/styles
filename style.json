@@ -7,7 +7,7 @@
     "openmaptiles:version": "3.x"
   },
   "sources": {
-    "openmaptiles": {"type": "vector", "url": "http://10.118.0.43:8090"}
+    "openmaptiles": {"type": "vector", "url": "https://github.com/quanvn1206/styles/blob/main/tile.json"}
   },
   "sprite": "https://maputnik.github.io/osm-liberty/sprites/osm-liberty",
   "glyphs": "https://api.maptiler.com/fonts/{fontstack}/{range}.pbf?key={key}",
