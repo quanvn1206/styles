@@ -1,15 +1,20 @@
 import:
     - https://tangrams.github.io/blocks/filter/grain.yaml
-
+global:
+    # Sign up for a Mapzen API key to enjoy higher rate limits
+    # https://mapzen.com/documentation/overview/#developer-accounts-and-api-keys
+    tile_api_key: ''  
 scene:
     background:
         color: '#555'
 
 sources:
     osm:
-        type: MVT
+        type: PBF
         url: 'https://api.maptiler.com/tiles/v3/{z}/{x}/{y}.pbf?key='
         max_zoom: 16
+        url_params:
+            api_key: global.tile_api_key
 
 cameras:
     cam:
