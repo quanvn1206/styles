@@ -10,8 +10,8 @@ scene:
 
 sources:
     osm:
-        type: PBF
-        url: 'https://api.maptiler.com/tiles/v3/{z}/{x}/{y}.pbf?'
+        type: MVT
+        url: 'https://api.maptiler.com/tiles/v3/{z}/{x}/{y}.mvt?'
         max_zoom: 16
         url_params:
             key: global.tile_api_key
